@@ -1584,7 +1584,66 @@ This is a single-page app that behaves like multiple pages using hash navigation
 .btn-sm:hover {
   background: #004d80;
 }
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f6f9;
+}
 
+header{
+background:#0b5ed7;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h3{
+margin-top:0;
+color:#0b5ed7;
+}
+
+ul{
+padding-left:18px;
+}
+
+.btn{
+display:inline-block;
+background:#0b5ed7;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+margin-top:10px;
+}
 
     /* Footer */
     footer{margin-top:26px;background:#0b1b2b;color:#ddd;padding:22px 0}
@@ -2175,7 +2234,7 @@ We also offer refurbished medical equipment, ensuring cost-effective options wit
    <section id="ot-equipment" class="page">
   <div class="container">
     <h2>OT (Operation Theatre) Equipments</h2>
-    <div class="blue-underline"></div>
+   
     <p class="intro-text">
 Saksham Biosurgical Services offers a wide range for operation theatre & surgical equipment for hospitals and clinics, including OT lights, operating tables & ceiling pendants. We have combined all the equipment needed for an Operating Theatre into one easy section and you can navigate through all related categories from this page.
     </p>
@@ -2203,7 +2262,7 @@ Saksham Biosurgical Services offers a wide range for operation theatre & surgica
         <a href="#" class="btn-sm">More...</a>
       </div>
            <div class="ot-card">
-        <img src="images/syring.png" alt="OT premiums">
+        <img src="images/syringe.png" alt="OT premiums">
         <h3>Syring</h3>
         <a href="#" class="btn-sm">More...</a>
       </div>
@@ -2212,7 +2271,110 @@ Saksham Biosurgical Services offers a wide range for operation theatre & surgica
   </div>
 </section>
 
-   
+   <section id="bed" class="page>
+      <header>
+<h1>Hospital Beds</h1>
+<p>High Quality Medical Beds for Hospitals</p>
+</header>
+
+<div class="container">
+
+<div class="grid">
+
+<!-- Bed 1 -->
+
+<div class="card">
+
+<img src="https://m.media-amazon.com/images/I/61w9M9pF7vL.jpg">
+
+<div class="card-content">
+
+<h3>Manual Hospital Bed</h3>
+
+<ul>
+<li>Manual crank system</li>
+<li>Backrest adjustment</li>
+<li>Powder coated steel frame</li>
+<li>Side safety rails</li>
+<li>Lockable castor wheels</li>
+</ul>
+
+<a href="#" class="btn">Request Quote</a>
+
+</div>
+</div>
+
+<!-- Bed 2 -->
+
+<div class="card">
+
+<img src="https://m.media-amazon.com/images/I/71tq4CeyvJL.jpg">
+
+<div class="card-content">
+
+<h3>Semi Fowler Bed</h3>
+
+<ul>
+<li>Manual backrest adjustment</li>
+<li>Durable mild steel frame</li>
+<li>Detachable panels</li>
+<li>Wheel braking system</li>
+</ul>
+
+<a href="#" class="btn">Request Quote</a>
+
+</div>
+</div>
+
+<!-- Bed 3 -->
+
+<div class="card">
+
+<img src="https://m.media-amazon.com/images/I/61fS5b4S7YL.jpg">
+
+<div class="card-content">
+
+<h3>Electric ICU Bed</h3>
+
+<ul>
+<li>3–5 function electric control</li>
+<li>Height adjustment</li>
+<li>ABS side rails</li>
+<li>Central locking wheels</li>
+</ul>
+
+<a href="#" class="btn">Request Quote</a>
+
+</div>
+</div>
+
+<!-- Bed 4 -->
+
+<div class="card">
+
+<img src="https://m.media-amazon.com/images/I/71mbJRhM8SL.jpg">
+
+<div class="card-content">
+
+<h3>ICU Bed</h3>
+
+<ul>
+<li>Motorized adjustment</li>
+<li>Knee rest control</li>
+<li>ABS head & foot panels</li>
+<li>Central braking system</li>
+</ul>
+
+<a href="#" class="btn">Request Quote</a>
+
+</div>
+</div>
+
+</div>
+
+</div>
+        <a href="#" class="btn-sm">More...</a>
+      </div>
     <section id="network" class="page">
        <div class="container">
        <h2>Our Network</h2>
