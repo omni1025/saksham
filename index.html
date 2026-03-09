@@ -1640,6 +1640,48 @@ color:#555;
 .btn-sm:hover {
   background: #004d80;
 }
+   /* Product Page Layout */
+
+.product-layout{
+  display:flex;
+  gap:40px;
+  align-items:flex-start;
+}
+
+/* Left Side (Beds Content) */
+.beds-content{
+  flex:3;
+}
+
+/* Right Side (Product Categories) */
+.products-list{
+  flex:1;
+  background:#f5f5f5;
+  padding:20px;
+  border-radius:8px;
+}
+
+/* Product Category Links */
+
+.products-list a{
+  display:block;
+  padding:10px;
+  border-bottom:1px solid #ddd;
+  text-decoration:none;
+  color:#333;
+}
+
+.products-list a:hover{
+  color:#0066a1;
+}
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+  .product-layout{
+    flex-direction:column;
+  }
+}
     /* Footer */
     footer{margin-top:26px;background:#0b1b2b;color:#ddd;padding:22px 0}
     .footer-inner{max-width:var(--max-width);margin:0 auto;display:flex;gap:20px;align-items:flex-start;justify-content:space-between;padding:0 18px}
