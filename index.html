@@ -1640,6 +1640,27 @@ color:#555;
 .btn-sm:hover {
   background: #004d80;
 } 
+   .products-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE = IMAGES */
+.products-image {
+  flex: 1;
+}
+
+/* RIGHT SIDE = PRODUCT LIST */
+.products-list {
+  flex: 0 0 250px;
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+}
    /* Footer */
     footer{margin-top:26px;background:#0b1b2b;color:#ddd;padding:22px 0}
     .footer-inner{max-width:var(--max-width);margin:0 auto;display:flex;gap:20px;align-items:flex-start;justify-content:space-between;padding:0 18px}
